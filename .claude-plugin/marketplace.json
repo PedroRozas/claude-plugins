@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "pedrorozas",
+  "description": "Claude Code plugins by Pedro Rozas",
+  "owner": { "name": "Pedro Rozas" },
+  "plugins": [
+    {
+      "name": "git-guard",
+      "source": { "source": "github", "repo": "PedroRozas/git-guard" },
+      "description": "Stops Claude Code from committing, pushing or opening PRs unless you grant a counted, expiring permission, and checks commit messages",
+      "homepage": "https://github.com/PedroRozas/git-guard"
+    },
+    {
+      "name": "agent-board",
+      "source": { "source": "github", "repo": "PedroRozas/agent-board" },
+      "description": "Live board of your Claude Code sessions, their subagents, activity and token usage",
+      "homepage": "https://github.com/PedroRozas/agent-board"
+    },
+    {
+      "name": "orphans",
+      "source": { "source": "github", "repo": "PedroRozas/orphans" },
+      "description": "Finds the processes Claude left running, asks the session whether it still needs them, and ends them when the session ends",
+      "homepage": "https://github.com/PedroRozas/orphans"
+    }
+  ]
+}
