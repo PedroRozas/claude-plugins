@@ -21,6 +21,12 @@
       "source": { "source": "github", "repo": "PedroRozas/orphans" },
       "description": "Finds the processes Claude left running, asks the session whether it still needs them, and ends them when the session ends",
       "homepage": "https://github.com/PedroRozas/orphans"
+    },
+    {
+      "name": "ship-ready",
+      "source": { "source": "github", "repo": "PedroRozas/ship-ready" },
+      "description": "Checks whether a Claude Code plugin idea is worth building, then ships it with everything a release needs",
+      "homepage": "https://github.com/PedroRozas/ship-ready"
     }
   ]
 }
